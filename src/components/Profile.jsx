@@ -48,9 +48,9 @@ const Profile = () => {
         <p style={{ color: "red" }}>{errorMsg}</p>
       ) : (
         <>
-        <div style={{border:"2px solid white",borderRadius:"50%",width:"150px",height:"150px"}}>
+        <div style={{border:"2px solid white",borderRadius:"50%",width:"150px",height:"150px",overflow:"hidden",padding:"20px"}}>
 
-        <img src={user?.image} height="130px" width={"130px"}/>
+        <img src={user?.image} height="100px" width={"100px"}/>
         </div>
           <p>
             Username: <span>{user?.username}</span>
