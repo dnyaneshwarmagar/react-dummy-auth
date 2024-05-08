@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-weight: 300;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    border-bottom: 2px solid white;
+}
+.navbar > ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:25px
+}
+.no_decoration{
+    text-decoration: none;
+    color: inherit;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding: 5% 16%;
+}
+form > input{
+    border:none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background-color: inherit;
+    color: inherit;
+    height: 46px;
+    padding: 5px 0;
+}
+form > input::placeholder{
+    color: white;
+}
+
+form > button{
+ width: 200px;
+ padding: 10px;
+ background-color: white;
+ margin-top: 15px;
+}
+form > p{
+    margin-top: 10px;
+}
+h1{
+    font-size: 45px;
+}
+.profile_box{
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.profile_box > h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.profile_box > p{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.profile_box > button{
+    width: 150px;
+    font-size: 20px;
+    background-color: white;
+    padding:10px 10px;
+    margin-top: 10px;
+    border: none;
+}
+.profile_box span{
+    font-size: 40px;
+    font-weight: 100;
+}
